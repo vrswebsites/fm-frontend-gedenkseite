@@ -1,0 +1,38 @@
+[
+  {
+    "personId": 1,
+    "name": "1. Video-Traueranzeige für Marliese Fiene",
+    "description": "Video-Traueranzeige für Marliese Fiene – geboren am 06.01.1955, gestorben am 03.12.2024",
+    "thumbnailUrl": "https://61260.vrskundentest.de/MEDIASERVER/content/LH260/videoobituaries/2024-12/609-videotraueranzeige-Marliese-Fiene-675b0d8094740_thumb.jpg?id=665",
+    "uploadDate": "2024-12-12T17:21:22+01:00",
+    "duration": "00:52",
+    "contentUrl": "https://61260.vrskundentest.de/MEDIASERVER/content/LH260/videoobituaries/2024-12/609-videotraueranzeige-Marliese-Fiene-675b0d8094740.mp4?id=665",
+    "shareUrl": "https://61260.vrskundentest.de/MEDIASERVER/content/LH260/videoobituaries/2024-12/609-videotraueranzeige-Marliese-Fiene-675b0d8380d85.mp4?id=665",
+    "shareText": "Jetzt Marliese gedenken und online eine Kerze anzünden!",
+    "modified": true
+  },
+  {
+    "personId": 2,
+    "name": "2. Video-Traueranzeige für Maria Mustermann",
+    "description": "Video-Traueranzeige für Maria Mustermann – geboren am 12.04.1942, gestorben am 03.12.2024",
+    "thumbnailUrl": "https://61260.vrskundentest.de/MEDIASERVER/content/LH260/videoobituaries/2024-12/609-videotraueranzeige-Marliese-Fiene-675b0d8094740_thumb.jpg?id=666",
+    "uploadDate": "2024-12-12T17:21:22+01:00",
+    "duration": "00:56",
+    "contentUrl": "https://61260.vrskundentest.de/MEDIASERVER/content/LH260/videoobituaries/2024-12/609-videotraueranzeige-Marliese-Fiene-675b0d8094740.mp4?id=666",
+    "shareUrl": "https://61260.vrskundentest.de/MEDIASERVER/content/LH260/videoobituaries/2024-12/609-videotraueranzeige-Marliese-Fiene-675b0d8380d85.mp4?id=666",
+    "shareText": "Jetzt Maria gedenken und online eine Kerze anzünden!",
+    "modified": true
+  },
+  {
+    "personId": 3,
+    "name": "3. Video-Traueranzeige für Peter Muster",
+    "description": "Video-Traueranzeige für Peter Muster – geboren am 06.08.1965, gestorben am 03.12.2024",
+    "thumbnailUrl": "https://61260.vrskundentest.de/MEDIASERVER/content/LH260/videoobituaries/2024-12/609-videotraueranzeige-Marliese-Fiene-675b0d8094740_thumb.jpg?id=667",
+    "uploadDate": "2024-12-12T17:21:22+01:00",
+    "duration": "00:53",
+    "contentUrl": "https://61260.vrskundentest.de/MEDIASERVER/content/LH260/videoobituaries/2024-12/607-videotraueranzeige-Marliese-Fiene-675b0aa0ba925.mp4?id=667",
+    "shareUrl": "https://61260.vrskundentest.de/MEDIASERVER/content/LH260/videoobituaries/2024-12/607-videotraueranzeige-Marliese-Fiene-675b0aa32a2af.mp4&id=667",
+    "shareText": "Jetzt Peter gedenken und online eine Kerze anzünden!",
+    "modified": false
+  }
+]

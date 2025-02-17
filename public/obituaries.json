@@ -1,0 +1,80 @@
+[
+  {
+    "personId": 1,
+    "title": "Todesanzeige für Max Mustermann",
+    "description": "Traueranzeige für Max Mustermann vom 12.02.2025 aus merkurtz",
+    "publicationDate": "2025-02-12",
+    "publisher": "Merkur und TZ",
+    "sizes": [
+      {
+        "1024w": {
+          "path": "/path/to/image_1024w.jpg",
+          "width": 1024,
+          "height": 512
+        },
+        "512w": {
+          "path": "/path/to/image_512w.jpg",
+          "width": 512,
+          "height": 256
+        },
+        "256w": {
+          "path": "/path/to/image_256w.jpg",
+          "width": 256,
+          "height": 128
+        }
+      }
+    ]
+  },
+  {
+    "personId": 2,
+    "title": "Todesanzeige für Max Mustermann",
+    "description": "Traueranzeige für Max Mustermann vom 12.02.2025 aus merkurtz",
+    "publicationDate": "2025-02-12",
+    "publisher": "Merkur und TZ",
+    "sizes": [
+      {
+        "1024w": {
+          "path": "/path/to/image_1024w.jpg",
+          "width": 1024,
+          "height": 512
+        },
+        "512w": {
+          "path": "/path/to/image_512w.jpg",
+          "width": 512,
+          "height": 256
+        },
+        "256w": {
+          "path": "/path/to/image_256w.jpg",
+          "width": 256,
+          "height": 128
+        }
+      }
+    ]
+  },
+  {
+    "personId": 3,
+    "title": "Todesanzeige für Max Mustermann",
+    "description": "Traueranzeige für Max Mustermann vom 12.02.2025 aus merkurtz",
+    "publicationDate": "2025-02-12",
+    "publisher": "Merkur und TZ",
+    "sizes": [
+      {
+        "1024w": {
+          "path": "/path/to/image_1024w.jpg",
+          "width": 1024,
+          "height": 512
+        },
+        "512w": {
+          "path": "/path/to/image_512w.jpg",
+          "width": 512,
+          "height": 256
+        },
+        "256w": {
+          "path": "/path/to/image_256w.jpg",
+          "width": 256,
+          "height": 128
+        }
+      }
+    ]
+  }
+]

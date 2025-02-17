@@ -1,0 +1,56 @@
+[
+  {
+    "personId": 1,
+    "condolenceCount": 2,
+    "condolences": [
+      {
+        "author": "Hans Muster",
+        "date": "2025-02-11",
+        "time": "16:00",
+        "content": "Mein herzliches Beileid."
+      },
+      {
+        "author": "Anna Beispiel",
+        "date": "2025-02-09",
+        "time": "12:45",
+        "content": "Viel Kraft für diese schwere Zeit."
+      }
+    ]
+  },
+  {
+    "personId": 2,
+    "condolenceCount": 2,
+    "condolences": [
+      {
+        "author": "Hans Muster",
+        "date": "2025-02-11",
+        "time": "16:00",
+        "content": "Mein herzliches Beileid."
+      },
+      {
+        "author": "Anna Beispiel",
+        "date": "2025-02-09",
+        "time": "12:45",
+        "content": "Viel Kraft für diese schwere Zeit."
+      }
+    ]
+  },
+  {
+    "personId": 3,
+    "condolenceCount": 2,
+    "condolences": [
+      {
+        "author": "Hans Muster",
+        "date": "2025-02-11",
+        "time": "16:00",
+        "content": "Mein herzliches Beileid."
+      },
+      {
+        "author": "Anna Beispiel1",
+        "date": "2025-02-09",
+        "time": "12:45",
+        "content": "Viel Kraft für diese schwere Zeit."
+      }
+    ]
+  }
+]

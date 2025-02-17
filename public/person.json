@@ -1,0 +1,418 @@
+[
+  {
+    "id": 1,
+    "url": "https://example.com/max-schmidt-memorial",
+    "givenName": "Max",
+    "additionalName": "Friedrich",
+    "familyName": "Schmidt",
+    "alternateName": "Maxi",
+    "honorificPrefix": "Dr/Mrs/Mr",
+    "honorificSuffix": " M.D./PhD/MSCSW",
+    "gender": "",
+    "description": "",
+    "birthDate": "1950-06-15",
+    "deathDate": "2023-11-20",
+    "birthPlace": {
+      "address": {
+        "addressLocality": "Berlin",
+        "addressCountry": "DE"
+      }
+    },
+    "deathPlace": {
+      "address": {
+        "addressLocality": "Munich",
+        "addressCountry": "DE"
+      }
+    },
+    "burialPlace": {
+      "name": "Ostfriedhof",
+      "address": {
+        "streetAddress": "Friedhofstraße 12",
+        "addressLocality": "Munich",
+        "postalCode": "80336",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.08405380000001,
+        "longitude": 8.7837544
+      }
+    },
+    "memorialServiceDate": "2023-11-25",
+    "memorialServiceLocation": {
+      "address": {
+        "streetAddress": "Marienkirche, Kirchplatz 3",
+        "addressLocality": "Munich",
+        "postalCode": "80331",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.08405380000001,
+        "longitude": 8.7837544
+      }
+    },
+    "funeralDate": "2023-11-25",
+    "funeralLocation": {
+      "address": {
+        "streetAddress": "Marienkirche, Kirchplatz 3",
+        "addressLocality": "Munich",
+        "postalCode": "80331",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.08405380000001,
+        "longitude": 8.7837544
+      }
+    },
+    "image": [
+      {
+        "caption": "Max Schmidt at his 70th birthday",
+        "contentUrl": "https://trauer.az-online.de/data/79/portrait.jpg",
+        "height": 800,
+        "width": 600,
+        "uploadDate": "2023-11-05T16:30+02:00"
+      }
+    ],
+    "createdBy": {
+      "name": "Verlagsname",
+      "date": "2023-11-07T10:30+02:00",
+      "location": "München",
+      "relation": ""
+    },
+    "noOfVisitors": "12587"
+  },
+  {
+    "id": 2,
+    "url": "https://example.com/johann-mueller-memorial",
+    "givenName": "Johann",
+    "additionalName": "Karl",
+    "familyName": "Müller",
+    "alternateName": "Hans",
+    "honorificPrefix": "Dr.",
+    "honorificSuffix": "PhD",
+    "gender": "male",
+    "description": "Renowned German scientist and researcher in biotechnology.",
+    "birthDate": "1945-09-22",
+    "deathDate": "2022-03-15",
+    "birthPlace": {
+      "address": {
+        "addressLocality": "Hamburg",
+        "addressCountry": "DE"
+      }
+    },
+    "deathPlace": {
+      "address": {
+        "addressLocality": "Frankfurt",
+        "addressCountry": "DE"
+      }
+    },
+    "burialPlace": {
+      "name": "Hauptfriedhof",
+      "address": {
+        "streetAddress": "Friedhofstraße 25",
+        "addressLocality": "Frankfurt",
+        "postalCode": "60389",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.08405380000001,
+        "longitude": 8.7837544
+      }
+    },
+    "memorialServiceDate": "2022-03-20",
+    "memorialServiceLocation": {
+      "address": {
+        "streetAddress": "St. Bartholomäus Kirche",
+        "addressLocality": "Frankfurt",
+        "postalCode": "60311",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.08405380000001,
+        "longitude": 8.7837544
+      }
+    },
+    "funeralDate": "2023-11-25",
+    "funeralLocation": {
+      "address": {
+        "streetAddress": "Marienkirche, Kirchplatz 3",
+        "addressLocality": "Munich",
+        "postalCode": "80331",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.08405380000001,
+        "longitude": 8.7837544
+      }
+    },
+    "image": [
+      {
+        "caption": "Johann Müller at a conference",
+        "contentUrl": "https://trauer.az-online.de/data/79/portrait.jpg",
+        "height": 800,
+        "width": 600
+      }
+    ],
+    "createdBy": {
+      "name": "Frankfurter Zeitung",
+      "date": "2022-03-17T12:00+01:00",
+      "location": "Frankfurt",
+      "relation": ""
+    },
+    "noOfVisitors": "9845"
+  },
+  {
+    "id": 3,
+    "url": "https://example.com/anna-schneider-memorial",
+    "givenName": "Anna",
+    "additionalName": "Maria",
+    "familyName": "Schneider",
+    "alternateName": "Anni",
+    "honorificPrefix": "Prof.",
+    "honorificSuffix": "M.A.",
+    "gender": "female",
+    "description": "German historian and university professor.",
+    "birthDate": "1960-07-15",
+    "deathDate": "2023-08-10",
+    "birthPlace": {
+      "address": {
+        "addressLocality": "Munich",
+        "addressCountry": "DE"
+      }
+    },
+    "deathPlace": {
+      "address": {
+        "addressLocality": "Berlin",
+        "addressCountry": "DE"
+      }
+    },
+    "burialPlace": {
+      "name": "Waldfriedhof",
+      "address": {
+        "streetAddress": "Waldfriedhofstraße 20",
+        "addressLocality": "Berlin",
+        "postalCode": "14193",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.08405380000001,
+        "longitude": 8.7837544
+      }
+    },
+    "memorialServiceDate": "2023-08-15",
+    "memorialServiceLocation": {
+      "address": {
+        "streetAddress": "St. Ludwig Kirche",
+        "addressLocality": "Berlin",
+        "postalCode": "10787",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.08405380000001,
+        "longitude": 8.7837544
+      }
+    },
+    "funeralDate": "2023-11-25",
+    "funeralLocation": {
+      "address": {
+        "streetAddress": "Marienkirche, Kirchplatz 3",
+        "addressLocality": "Munich",
+        "postalCode": "80331",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.08405380000001,
+        "longitude": 8.7837544
+      }
+    },
+    "image": [
+      {
+        "caption": "Anna Schneider at a lecture",
+        "contentUrl": "https://example.com/photos/anna_schneider.jpg",
+        "height": 800,
+        "width": 600
+      }
+    ],
+    "createdBy": {
+      "name": "Berliner Zeitung",
+      "date": "2023-08-12T14:00+02:00",
+      "location": "Berlin",
+      "relation": ""
+    },
+    "noOfVisitors": "7532"
+  },
+  {
+    "id": 4,
+    "url": "https://example.com/erik-fischer-memorial",
+    "givenName": "Erik",
+    "additionalName": "Ludwig",
+    "familyName": "Fischer",
+    "alternateName": "Riki",
+    "honorificPrefix": "Mr.",
+    "honorificSuffix": "Dipl.-Ing.",
+    "gender": "male",
+    "description": "Famous German architect known for modern urban designs.",
+    "birthDate": "1955-11-05",
+    "deathDate": "2021-12-30",
+    "birthPlace": {
+      "address": {
+        "addressLocality": "Stuttgart",
+        "addressCountry": "DE"
+      }
+    },
+    "deathPlace": {
+      "address": {
+        "addressLocality": "Hamburg",
+        "addressCountry": "DE"
+      }
+    },
+    "burialPlace": {
+      "name": "Ohlsdorfer Friedhof",
+      "address": {
+        "streetAddress": "Fuhlsbüttler Str. 756",
+        "addressLocality": "Hamburg",
+        "postalCode": "22337",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.08405380000001,
+        "longitude": 8.7837544
+      }
+    },
+    "memorialServiceDate": "2022-01-05",
+    "memorialServiceLocation": {
+      "address": {
+        "streetAddress": "Hauptkirche St. Michaelis",
+        "addressLocality": "Hamburg",
+        "postalCode": "20459",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.08405380000001,
+        "longitude": 8.7837544
+      }
+    },
+    "funeralDate": "2023-11-25",
+    "funeralLocation": {
+      "address": {
+        "streetAddress": "Marienkirche, Kirchplatz 3",
+        "addressLocality": "Munich",
+        "postalCode": "80331",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.08405380000001,
+        "longitude": 8.7837544
+      }
+    },
+    "image": [
+      {
+        "caption": "Erik Fischer at a construction site",
+        "contentUrl": "https://example.com/photos/erik_fischer.jpg",
+        "height": 800,
+        "width": 600
+      }
+    ],
+    "createdBy": {
+      "name": "Hamburger Morgenpost",
+      "date": "2022-01-02T11:30+01:00",
+      "location": "Hamburg",
+      "relation": ""
+    },
+    "noOfVisitors": "6700"
+  },
+  {
+    "id": 5,
+    "url": "https://example.com/sophie-weber-memorial",
+    "givenName": "Sophie",
+    "additionalName": "Elisabeth",
+    "familyName": "Weber",
+    "alternateName": "Sophy",
+    "honorificPrefix": "Dr.",
+    "honorificSuffix": "MD",
+    "gender": "female",
+    "description": "Respected German doctor and humanitarian.",
+    "birthDate": "1972-05-20",
+    "deathDate": "2024-01-10",
+    "birthPlace": {
+      "address": {
+        "addressLocality": "Düsseldorf",
+        "addressCountry": "DE"
+      }
+    },
+    "deathPlace": {
+      "address": {
+        "addressLocality": "Cologne",
+        "addressCountry": "DE"
+      }
+    },
+    "burialPlace": {
+      "name": "Melaten-Friedhof",
+      "address": {
+        "streetAddress": "Aachener Str. 204",
+        "addressLocality": "Cologne",
+        "postalCode": "50931",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.08405380000001,
+        "longitude": 8.7837544
+      }
+    },
+    "memorialServiceDate": "2024-01-15",
+    "memorialServiceLocation": {
+      "address": {
+        "streetAddress": "Kölner Dom",
+        "addressLocality": "Cologne",
+        "postalCode": "50667",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.08405380000001,
+        "longitude": 8.7837544
+      }
+    },
+    "funeralDate": "2023-11-25",
+    "funeralLocation": {
+      "address": {
+        "streetAddress": "Marienkirche, Kirchplatz 3",
+        "addressLocality": "Munich",
+        "postalCode": "80331",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.08405380000001,
+        "longitude": 8.7837544
+      }
+    },
+    "image": [
+      {
+        "caption": "Dr. Sophie Weber at a medical conference",
+        "contentUrl": "https://example.com/photos/sophie_weber.jpg",
+        "height": 800,
+        "width": 600
+      }
+    ],
+    "createdBy": {
+      "name": "Kölner Stadt-Anzeiger",
+      "date": "2024-01-12T09:00+01:00",
+      "location": "Cologne",
+      "relation": ""
+    },
+    "noOfVisitors": "8123"
+  }
+]

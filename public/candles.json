@@ -1,0 +1,68 @@
+[
+  {
+    "personId": 1,
+    "candleCount": 2,
+    "candles": [
+      {
+        "mediaUrl": "https://example.com/kerze1.jpg",
+        "mediaID": "1213",
+        "author": "Max Mustermann",
+        "date": "2025-02-11",
+        "time": "14:30",
+        "content": "In stillem Gedenken."
+      },
+      {
+        "mediaUrl": "https://example.com/kerze2.jpg",
+        "mediaID": "1214",
+        "author": "Maria Beispiel",
+        "date": "2025-02-10",
+        "time": "09:15",
+        "content": "Ruhe in Frieden."
+      }
+    ]
+  },
+  {
+    "personId": 2,
+    "candleCount": 2,
+    "candles": [
+      {
+        "mediaUrl": "https://example.com/kerze1.jpg",
+        "mediaID": "1213",
+        "author": "Max Mustermann",
+        "date": "2025-02-11",
+        "time": "14:30",
+        "content": "In stillem Gedenken."
+      },
+      {
+        "mediaUrl": "https://example.com/kerze2.jpg",
+        "mediaID": "1214",
+        "author": "Maria Beispiel",
+        "date": "2025-02-10",
+        "time": "09:15",
+        "content": "Ruhe in Frieden."
+      }
+    ]
+  },
+  {
+    "personId": 3,
+    "candleCount": 2,
+    "candles": [
+      {
+        "mediaUrl": "https://example.com/kerze1.jpg",
+        "mediaID": "1213",
+        "author": "Max Mustermann",
+        "date": "2025-02-11",
+        "time": "14:30",
+        "content": "In stillem Gedenken."
+      },
+      {
+        "mediaUrl": "https://example.com/kerze2.jpg",
+        "mediaID": "1214",
+        "author": "Maria Beispiel",
+        "date": "2025-02-10",
+        "time": "09:15",
+        "content": "Ruhe in Frieden."
+      }
+    ]
+  }
+]
