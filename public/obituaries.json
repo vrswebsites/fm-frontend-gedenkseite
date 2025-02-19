@@ -8,17 +8,17 @@
     "sizes": [
       {
         "1024w": {
-          "path": "/path/to/image_1024w.jpg",
+          "path": "/anzeige/Ad_1_1024w.jpg",
           "width": 1024,
           "height": 512
         },
         "512w": {
-          "path": "/path/to/image_512w.jpg",
+          "path": "/anzeige/Ad_1_512w.jpg",
           "width": 512,
           "height": 256
         },
         "256w": {
-          "path": "/path/to/image_256w.jpg",
+          "path": "/anzeige/Ad_1_256w.jpg",
           "width": 256,
           "height": 128
         }
@@ -34,17 +34,17 @@
     "sizes": [
       {
         "1024w": {
-          "path": "/path/to/image_1024w.jpg",
+          "path": "/anzeige/Ad_2_1024w.jpg",
           "width": 1024,
           "height": 512
         },
         "512w": {
-          "path": "/path/to/image_512w.jpg",
+          "path": "/anzeige/Ad_2_512w.jpg",
           "width": 512,
           "height": 256
         },
         "256w": {
-          "path": "/path/to/image_256w.jpg",
+          "path": "/anzeige/Ad_2_256w.jpg",
           "width": 256,
           "height": 128
         }
@@ -60,17 +60,17 @@
     "sizes": [
       {
         "1024w": {
-          "path": "/path/to/image_1024w.jpg",
+          "path": "/anzeige/Ad_3_1024w.jpg",
           "width": 1024,
           "height": 512
         },
         "512w": {
-          "path": "/path/to/image_512w.jpg",
+          "path": "/anzeige/Ad_3_512w.jpg",
           "width": 512,
           "height": 256
         },
         "256w": {
-          "path": "/path/to/image_256w.jpg",
+          "path": "/anzeige/Ad_3_256w.jpg",
           "width": 256,
           "height": 128
         }

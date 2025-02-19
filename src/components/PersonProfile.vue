@@ -3,17 +3,18 @@ import { usePersonStore } from "@/stores/personStore";
 import { useRoute } from "vue-router";
 import { ref, computed, onMounted } from "vue";
 import PersonInfoTab from '@/components/Tabs.vue';
+import ResponsiveImages from '@/components/ResponsiveImage.vue';
 
-const store = usePersonStore();
+const personStore = usePersonStore();
 const route = useRoute();
 const isStartTabActive = ref(true);
 defineProps(["id", "givenName"]);
 
 onMounted(() => {
-	store.selectPerson(Number(route.params.id));
+	personStore.selectPerson(Number(route.params.id));
 });
 
-const person = computed(() => store.selectedPersonDetails);
+const person = computed(() => personStore.selectedPersonDetails);
 </script>
 
 <template>
@@ -27,7 +28,7 @@ const person = computed(() => store.selectedPersonDetails);
 				<span>
 					<p><strong>Birth Date:</strong> {{ person.birthDate }}</p>
 					<p><strong>Death Date:</strong> {{ person.deathDate }} {{ person.deathPlace.address.addressLocality
-						}}</p>
+					}}</p>
 				</span>
 			</span>
 			<div class="profile__creator">
@@ -50,6 +51,7 @@ const person = computed(() => store.selectedPersonDetails);
 					<li>{{ person.obituaries.description }}</li>
 					<li>{{ person.obituaries.publicationDate }}</li>
 					<li>{{ person.obituaries.publisher }}</li>
+					<ResponsiveImages :sizes="person.obituaries.sizes" />
 				</ul>
 			</div>
 

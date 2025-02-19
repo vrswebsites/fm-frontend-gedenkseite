@@ -2,9 +2,8 @@
 import { usePersonStore } from "@/stores/personStore";
 import { computed } from "vue";
 
-const store = usePersonStore();
-
-const persons = computed(() => store.persons);
+const personStore = usePersonStore();
+const persons = computed(() => personStore.persons);
 </script>
 
 <template>

@@ -3,13 +3,13 @@ import { onMounted, computed } from "vue";
 import { usePersonStore } from "@/stores/personStore";
 import { useUserTypeStore } from "@/stores/userStore";
 
-const store = usePersonStore();
+const personStore = usePersonStore();
 const userStore = useUserTypeStore();
 
 const userType = computed(() => userStore.userType);
 
 onMounted(() => {
-    store.fetchData();
+    personStore.fetchData();
 });
 </script>
 
