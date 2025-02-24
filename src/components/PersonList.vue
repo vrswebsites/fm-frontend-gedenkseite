@@ -7,11 +7,11 @@ const persons = computed(() => personStore.persons);
 </script>
 
 <template>
-	<div class="person__list">
+	<div class="person-list">
 		<h2>Person List</h2>
-		<ul>
-			<li v-for="person in persons" :key="person.id">
-				<router-link :to="`/person/${person.id}/${person.givenName}`" class="person__list--link">
+		<ul class="person-list__items">
+			<li class="person-list__item" v-for="person in persons" :key="person.id">
+				<router-link :to="`/person/${person.id}/${person.givenName}`" class="person-list__link">
 					{{ person.givenName }} {{ person.familyName }}
 				</router-link>
 			</li>
@@ -19,43 +19,43 @@ const persons = computed(() => personStore.persons);
 	</div>
 </template>
 
-<style scoped>
-.person__list {
-	padding: 1em;
+<style lang="scss" scoped>
+.person-list {
+	padding: 2rem;
 	margin: 0 auto;
 	font-family: Arial, sans-serif;
-}
 
-ul {
-	list-style: none;
-	padding: 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	gap: 2em;
-}
+	&__items {
+		list-style: none;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		gap: 2rem;
+	}
 
-li {
-	flex: 1;
-	min-width: 200px;
-	text-align: center;
-}
+	&__item {
+		flex-grow: 1;
+		flex-basis: 200px;
+		text-align: center;
+	}
 
-.person__list--link {
-	display: block;
-	padding: 1em 2em;
-	font-size: 1.2em;
-	font-weight: bold;
-	text-decoration: none;
-	background-color: #f1f1f1;
-	color: #333;
-	border-radius: 8px;
-	transition: background-color 0.3s ease, transform 0.3s ease;
-}
+	&__link {
+		display: block;
+		padding: 4rem 2rem;
+		font-size: 1.2rem;
+		font-weight: bold;
+		text-decoration: none;
+		background-color: #f1f1f1;
+		color: #333;
+		border-radius: 8px;
+		transition: background-color 0.3s ease, transform 0.3s ease;
 
-.person__list--link:hover {
-	background-color: rgb(151, 31, 31);
-	color: white;
-	transform: translateY(-2px);
+		&:hover {
+			background-color: #0055a5;
+			color: white;
+			transform: translateY(-5px);
+		}
+	}
 }
 </style>

@@ -7,7 +7,8 @@ import ResponsiveImages from '@/components/ResponsiveImage.vue';
 
 const personStore = usePersonStore();
 const route = useRoute();
-const isStartTabActive = ref(true);
+const isStartTabActive = ref(route.params.tab ? route.params.tab === "start" : true);
+
 defineProps(["id", "givenName"]);
 
 onMounted(() => {
@@ -39,8 +40,8 @@ const person = computed(() => personStore.selectedPersonDetails);
 				<span> Besuche {{ person.noOfVisitors }}</span>
 			</div>
 		</div>
-
-		<person-info-tab @tabChanged="isStartTabActive = $event"></person-info-tab>
+		<!-- navigation -->
+		<PersonInfoTab @tabChanged="isStartTabActive = $event"></PersonInfoTab>
 
 		<div v-if="isStartTabActive" class="profile__overview">
 			<!-- obituaries -->
@@ -51,7 +52,7 @@ const person = computed(() => personStore.selectedPersonDetails);
 					<li>{{ person.obituaries.description }}</li>
 					<li>{{ person.obituaries.publicationDate }}</li>
 					<li>{{ person.obituaries.publisher }}</li>
-					<ResponsiveImages :sizes="person.obituaries.sizes" />
+					<ResponsiveImages :sizes="person.obituaries.sizes"></ResponsiveImages>
 				</ul>
 			</div>
 
@@ -97,13 +98,13 @@ const person = computed(() => personStore.selectedPersonDetails);
 	</div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .profile {
 	display: flex;
 	position: relative;
 	justify-content: space-between;
 	background-color: #f1f1f1;
-	padding: 1em;
+	padding: 1rem;
 }
 
 .profile__image {
@@ -116,6 +117,6 @@ const person = computed(() => personStore.selectedPersonDetails);
 .profile__creator {
 	display: flex;
 	flex-direction: column;
-	padding: 1em;
+	padding: 1rem;
 }
 </style>

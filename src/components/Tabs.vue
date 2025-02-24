@@ -71,13 +71,14 @@ watch(
 		}
 	}
 );
+
 </script>
 
 <template>
 	<!-- Navigation Bar -->
 	<nav class="navbar">
-		<ul class="nav__list">
-			<li v-for="(tab, index) in tabs" :key="index" @click="selectTab(tab.key)"
+		<ul class="navbar__list">
+			<li class="navbar__list__item" v-for="(tab, index) in tabs" :key="index" @click="selectTab(tab.key)"
 				:class="{ active: selectedTab === tab.key }">
 				{{ tab.label }}
 			</li>
@@ -91,7 +92,7 @@ watch(
 			<h3>Obituaries</h3>
 			<h4> {{ tabs[1].content.title }} </h4>
 			<p>{{ tabs[1].content.description }}</p>
-			<ResponsiveImages :sizes="tabs[1].content.sizes" />
+			<ResponsiveImages :sizes="tabs[1].content.sizes"></ResponsiveImages>
 		</div>
 
 		<!-- Video Obituaries Tab -->
@@ -124,13 +125,7 @@ watch(
 						</ul>
 					</li>
 				</ul>
-				<div class="candle-crud">
-					<button @click="addCandle">add Candle</button>
-					<button @click="updateCandle">update Candle</button>
-					<button @click="removeCandle">remove Candle</button>
-				</div>
 			</div>
-
 			<p v-else>No candles available.</p>
 		</div>
 
@@ -153,46 +148,40 @@ watch(
 					</ul>
 				</li>
 			</ul>
-
 			<p v-else>No condolences available.</p>
 		</div>
 	</div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .navbar {
 	display: flex;
 	align-items: center;
-	background-color: #0082c8;
+	background-color: #0055a5;
 	color: white;
-}
 
-.nav__list {
-	list-style: none;
-	display: flex;
-	padding: 0;
-	margin: 0;
-	flex-grow: 1;
-}
+	&__list {
+		list-style: none;
+		display: flex;
+		padding: 0;
+		margin: 0;
+		flex-grow: 1;
+	}
 
-.nav__list li {
-	padding: 10px 15px;
-	cursor: pointer;
-	font-weight: bold;
-}
+	&__list__item {
+		padding: 1rem 2rem;
+		cursor: pointer;
+		font-size: 1.2rem;
+		font-weight: bold;
 
-.nav__list li.active {
-	background-color: rgba(255, 255, 255, 0.2);
+		&.active {
+			background-color: rgba(255, 255, 255, 0.2);
+		}
+	}
 }
 
 .tab-content {
-	padding: 15px;
+	padding: 1rem;
 	background-color: #f4f4f4;
-	border-radius: 5px;
-}
-
-.candle-crud {
-	display: flex;
-	gap: 1em;
 }
 </style>
