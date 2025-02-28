@@ -19,7 +19,7 @@ const person = computed(() => personStore.selectedPersonDetails);
 </script>
 
 <template>
-	<router-link to="/">Back</router-link>
+	<!-- <router-link to="/">Back</router-link> -->
 
 	<div v-if="person">
 		<div class="profile">
@@ -105,18 +105,19 @@ const person = computed(() => personStore.selectedPersonDetails);
 	justify-content: space-between;
 	background-color: #f1f1f1;
 	padding: 1rem;
-}
 
-.profile__image {
-	height: 150px;
-	width: 150px;
-	border: 2px solid black;
-	object-fit: cover;
-}
+	&__image {
+		height: 150px;
+		width: 150px;
+		border: 2px solid black;
+		object-fit: cover;
 
-.profile__creator {
-	display: flex;
-	flex-direction: column;
-	padding: 1rem;
+	}
+
+	&__creator {
+		display: flex;
+		flex-direction: column;
+		padding: 1rem;
+	}
 }
 </style>

@@ -4,7 +4,8 @@ import DefaultLayout from "@/layouts/DefaultLayout.vue";
 import EmptyLayout from "@/layouts/EmptyLayout.vue";
 import AdminLayout from "@/layouts/AdminLayout.vue";
 import HomeView from "@/views/HomeView.vue";
-
+import LoginView from "@/views/LoginView.vue";
+import RegisterView from "@/views/RegisterView.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -18,6 +19,16 @@ const router = createRouter({
           component: HomeView,
         },
         {
+          path: "/login",
+          name: "login",
+          component: LoginView,
+        },
+        {
+          path: "/register",
+          name: "register",
+          component: RegisterView,
+        },
+        {
           path: "/person/:id/:givenName/:tab?",
           name: "PersonProfile",
           component: PersonProfile,
@@ -29,7 +40,7 @@ const router = createRouter({
       ],
     },
     {
-      path: "/login",
+      path: "/signin",
       component: EmptyLayout,
     },
     {

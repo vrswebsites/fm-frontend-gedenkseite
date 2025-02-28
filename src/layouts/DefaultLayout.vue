@@ -2,7 +2,8 @@
 import { onMounted, computed } from "vue";
 import { usePersonStore } from "@/stores/personStore";
 import { useUserTypeStore } from "@/stores/userStore";
-
+import VHeader from '@/components/VHeader.vue';
+import Newsletter from "@/components/Newsletter.vue";
 const personStore = usePersonStore();
 const userStore = useUserTypeStore();
 
@@ -15,18 +16,13 @@ onMounted(() => {
 
 <!-- Default Layout -->
 <template>
-    <div :class="userType === 'premium' ? 'premium' : 'normal'">
-        <p>User Type: {{ userType }}</p>
-        <router-view></router-view>
-    </div>
-
+    <VHeader :class="userType === 'premium' ? 'premium' : 'navbar-light'">
+    </VHeader>
+    <RouterView></RouterView>
+    <Newsletter></Newsletter>
 </template>
 <style scoped>
 .premium {
     background-color: rgb(226, 192, 82);
-}
-
-.normal {
-    background-color: white;
 }
 </style>

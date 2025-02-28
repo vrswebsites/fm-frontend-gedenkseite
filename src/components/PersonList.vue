@@ -1,9 +1,14 @@
 <script setup>
 import { usePersonStore } from "@/stores/personStore";
-import { computed } from "vue";
+import { ref, computed } from "vue";
+import VCard from "@/components/VCard.vue";
+import { RouterLink } from "vue-router";
+import VButton from "./VButton.vue";
 
 const personStore = usePersonStore();
 const persons = computed(() => personStore.persons);
+const showCards = ref("");
+
 </script>
 
 <template>
@@ -11,17 +16,29 @@ const persons = computed(() => personStore.persons);
 		<h2>Person List</h2>
 		<ul class="person-list__items">
 			<li class="person-list__item" v-for="person in persons" :key="person.id">
-				<router-link :to="`/person/${person.id}/${person.givenName}`" class="person-list__link">
+				<RouterLink :to="`/person/${person.id}/${person.givenName}`" class="person-list__link">
 					{{ person.givenName }} {{ person.familyName }}
-				</router-link>
+				</RouterLink>
 			</li>
 		</ul>
+		<VButton class="mt-5" isPrimary label="Toggle Cards" @click="showCards = !showCards"></VButton>
 	</div>
+	<div v-if="!showCards" class="container card-container">
+		<template v-for="person in persons">
+			<VCard :imageSrc="person.image[0].contentUrl" :showIcon="true" :title="person.givenName"
+				:subTitle="person.familyName" :content="person.description" :buttonProps="{
+					label: 'Click me',
+					isPrimary: true,
+					iconName: 'thumbs-up'
+				}"></VCard>
+		</template>
+	</div>
+
 </template>
 
 <style lang="scss" scoped>
 .person-list {
-	padding: 2rem;
+	padding: 4rem;
 	margin: 0 auto;
 	font-family: Arial, sans-serif;
 

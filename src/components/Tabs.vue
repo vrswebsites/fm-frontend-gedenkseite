@@ -1,5 +1,5 @@
 <script setup>
-import { ref, defineEmits, watch, onMounted } from "vue";
+import { ref, watch, onMounted } from "vue";
 import { usePersonStore } from "@/stores/personStore";
 import { useRouter, useRoute } from "vue-router";
 import ResponsiveImages from "@/components/ResponsiveImage.vue";
@@ -159,6 +159,7 @@ watch(
 	align-items: center;
 	background-color: #0055a5;
 	color: white;
+	padding: 0;
 
 	&__list {
 		list-style: none;

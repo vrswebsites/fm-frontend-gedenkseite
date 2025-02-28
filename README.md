@@ -67,3 +67,11 @@ Configuration file for the Vue components compiler.
 
 vite.config.js
 Configuration file for the build tool, Vite.
+
+### Visualize Vite bundle
+
+https://www.npmjs.com/package/vite-bundle-visualizer
+
+### Why OKLCH in CSS
+
+https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl
