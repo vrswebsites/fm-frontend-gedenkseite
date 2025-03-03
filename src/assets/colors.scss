@@ -1,0 +1,40 @@
+:root {
+    $color-steps: (
+        1: 10%,
+        2: 20%,
+        3: 30%,
+        4: 40%,
+        5: 50%,
+    );
+    --primary-h: 40;
+    --primary-s: 100%;
+    --primary-l: 48%;
+    --primary-color-transparent: hsla(var(--primary-color-hsl) / 0.35);
+    --primary-color-hsl: var(--primary-h) var(--primary-s) var(--primary-l);
+    --primary-color: hsl(var(--primary-color-hsl));
+    --txt-color: #333333;
+    --txt-color-light: #ffffff;
+
+    @each $step, $percent in $color-steps {
+        --primary-color-shade-#{$step}: hsl(var(--primary-h) var(--primary-s) calc(var(--primary-l) - #{$percent}));
+    }
+
+    @each $step, $percent in $color-steps {
+        --primary-color-tint-#{$step}: hsl(var(--primary-h) var(--primary-s) calc(var(--primary-l) + #{$percent}));
+    }
+}
+
+/**
+  * @section	Generate color shades & tints
+  */
+@function tint($color, $percentage) {
+    @return mix(#fff, $color, $percentage);
+}
+
+@function shade($color, $percentage) {
+    @return mix(#000, $color, $percentage);
+}
+
+@function toValues($colour) {
+    @return red($colour) + ", " + green($colour) + ", " + blue($colour);
+}
