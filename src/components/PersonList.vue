@@ -21,15 +21,21 @@ const showCards = ref("");
 				</RouterLink>
 			</li>
 		</ul>
-		<VButton class="mt-5" isPrimary label="Toggle Cards" @click="showCards = !showCards"></VButton>
+		<VButton as="link" :href="'/about'" variant="link" label="Go to About Page" />
+		<VButton as="button" icon-name="house" rounded="full"></VButton>
+		<VButton as="link" :href="'/'" variant="link" label="hallo"></VButton>
+
+		<VButton as="button" label="Toggle Cards" @click="showCards = !showCards"></VButton>
 	</div>
+
 	<div v-if="!showCards" class="container card-container">
 		<template v-for="person in persons">
 			<VCard :imageSrc="person.image[0].contentUrl" :showIcon="true" :title="person.givenName"
 				:subTitle="person.familyName" :content="person.description" :buttonProps="{
-					label: 'Click me',
-					isPrimary: true,
-					iconName: 'thumbs-up'
+					label: 'More Info',
+					variant: 'secondary',
+					iconName: 'thumbs-up',
+					as: 'button',
 				}"></VCard>
 		</template>
 	</div>

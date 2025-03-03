@@ -61,6 +61,7 @@ const props = defineProps({
     padding: 0.8rem;
     transition: all 0.3s ease-in-out;
     position: relative;
+    border: 1px solid;
 
     /* Hover State */
     &:hover {
