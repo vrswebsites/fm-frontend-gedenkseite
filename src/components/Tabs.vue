@@ -157,7 +157,7 @@ watch(
 .navbar {
 	display: flex;
 	align-items: center;
-	background-color: #0055a5;
+	background-color: var(--primary-color);
 	color: white;
 	padding: 0;
 
@@ -176,7 +176,7 @@ watch(
 		font-weight: bold;
 
 		&.active {
-			background-color: rgba(255, 255, 255, 0.2);
+			background-color: var(--primary-color-shade-3);
 		}
 	}
 }
