@@ -1,11 +1,20 @@
 :root {
     $color-steps: (
-        1: 10%,
-        2: 20%,
-        3: 30%,
-        4: 40%,
-        5: 50%,
+        1: 5%,
+        2: 10%,
+        3: 15%,
+        4: 20%,
+        5: 25%,
+        6: 30%,
+        7: 35%,
+        8: 40%,
+        9: 45%,
+        10: 50%,
+
     );
+
+// Primary color declaration
+
     --primary-h: 40;
     --primary-s: 100%;
     --primary-l: 48%;
@@ -22,6 +31,25 @@
     @each $step, $percent in $color-steps {
         --primary-color-tint-#{$step}: hsl(var(--primary-h) var(--primary-s) calc(var(--primary-l) + #{$percent}));
     }
+
+// Secondary color declaration
+
+    --secondary-h: 80;
+    --secondary-s: 45%;
+    --secondary-l: 55%;
+    --secondary-color-transparent: hsla(var(--secondary-color-hsl) / 0.35);
+    --secondary-color-hsl: var(--secondary-h) var(--secondary-s) var(--secondary-l);
+    --secondary-color: hsl(var(--secondary-color-hsl));
+
+    @each $step, $percent in $color-steps {
+        --secondary-color-shade-#{$step}: hsl(var(--secondary-h) var(--secondary-s) calc(var(--secondary-l) - #{$percent}));
+    }
+
+    @each $step, $percent in $color-steps {
+        --secondary-color-tint-#{$step}: hsl(var(--secondary-h) var(--secondary-s) calc(var(--secondary-l) + #{$percent}));
+    }
+
+
 }
 
 /**
