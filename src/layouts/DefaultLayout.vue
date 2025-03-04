@@ -19,7 +19,6 @@ onMounted(() => {
     <VHeader :class="userType === 'premium' ? 'premium' : 'navbar-light'">
     </VHeader>
     <RouterView></RouterView>
-    <Newsletter></Newsletter>
 </template>
 <style scoped>
 .premium {
